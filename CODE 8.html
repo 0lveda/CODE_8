@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> C0DE 8 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="0000.css">
+<link rel="icon" type="png" href="logob.png">
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital@1&family=Share+Tech&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+     <header>
+	          <div class="home-page">
+			  <a href="CODE 8.html">
+			  <img src="logo.png" alt="logo">
+			  </a>
+			  </div>
+			  <div class="nav">
+			  <ul>
+			  <li><a href="#Games"> Games </a></li>
+			  <li><a href="#"> Profile </a></li>
+			  <li><a href="#Community"> Community </a></li>
+			  <li><a href="#"> Blog </a></li>
+			  <li><a href="#Contact"> Contact </a></li>
+			  <li><a href="#"> Help </a></li>
+			  </ul>
+			  </div>
+			  <div class="user">
+			  <i class="fas fa-bell"></i>
+			  <button onclick="document.getElementById('user-login').style.display = 'block' " id="login" type="submit"> Login </button>
+			  </div>
+			  <div id="user-login" class="login-form">
+			  <form action="" class="login-container">
+			  <div class="user-img">
+			  <span class="close" onclick="document.getElementById('user-login').style.display = 'none'">&times;</span>
+			  <img src="user.png" alt="user">
+			  </div>
+			  <div class="form">
+			  <label for="username">Username</label>
+			  <input type="text" placeholder="Enter Username" required>
+			  <label for="password">Password</label>
+			  <input type="text" placeholder="Enter password" required>
+			  <span class="password"> Forgot <a href="">password?</a></span>
+			  <input type="submit" class="login-button" value="Login">
+			  <div class="checkbox">
+			  <input type="checkbox"> Remember me
+			  </div>
+              <span class="sign-up">Don't have an account? <a href="#">Sign up</a></span>
+			  </div>
+			  </form>
+			  </div>
+	  </header>
+	  
+	  <section id="Hero">
+			  <div class="pulse">
+			  <div class="Hlogo">
+			  <img src="logob.png" alt="logob">
+			  </div>
+			  <span style="--i:0;"></span>
+			  <span style="--i:1;"></span>
+			  <span style="--i:2;"></span>
+			  <span style="--i:3;"></span>
+			  </div>
+			  <div class="hp-title">
+			  <div class="hp-inside">
+			  <h1>C0DE 8</h1>
+			  <p> Game On! Play Code! </p>
+			  </div>
+              </div>
+			  <div class="spinner">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="#def2f1" stroke-width="0.8"
+			  d="M9.743 10.25c3.213 1.96 5.017 4.676 
+			  7.248 4.676 2.588 0 2.791-4.8.518-5.668-3.107-1.187-5.178
+			  3.719-8.284 5.03-1.415.677-3.41 1.014-4.09-1.14-.251-.797-.13-1.65.133-2.442v0c.425-1.278
+			  2.132-1.66 3.35-1.081.304.144.668.346 1.125.625z" stroke-dashoffset="100"
+			  stroke-dasharray="100" class="path">
+              </path>
+			  </svg>
+			  </div>
+	  </section>
+	  
+	  <section id="Community">
+	    <div class="C">
+		<h1>Explore Our Community</h1>
+		</div>
+		<div class="cont">
+			<div class="slider">
+			
+			<input type="radio" class="radio" name="images" id="radio-1" checked>
+			<input type="radio" class="radio" name="images" id="radio-2">
+			<input type="radio" class="radio" name="images" id="radio-3">
+			<input type="radio" class="radio" name="images" id="radio-4">
+			
+			<div class="slide" id="slide-1">
+				<img src="img1.jpg" alt="img1">
+				<div class="caption"><span>HelloWorld</span>Hey Gamers</div>
+			</div>
+			<div class="slide" id="slide-2">
+				<img src="img2.jpg" alt="img2">
+				<div class="caption"><span>Join</span>Our Community</div>
+			</div>
+			<div class="slide" id="slide-3">
+				<img src="img3.jpg" alt="img3">
+				<div class="caption"><span>Let's Play</span> Have Fun</div>
+			</div>
+			<div class="slide" id="slide-4">
+				<img src="img4.jpg" alt="img4">
+				<div class="caption"><span>Game On</span>Play Code!</div>
+			</div>
+			<div class="dots">
+				<label for="radio-1" id="label-1"></label>
+				<label for="radio-2" id="label-2"></label>
+				<label for="radio-3" id="label-3"></label>
+				<label for="radio-4" id="label-4"></label>
+			</div>
+			<div class="btn">
+			<button><a href="#">Join Now</a></button>
+			</div>
+			</div>
+		</div>
+					<div class="load">
+			<div class="loader"></div>
+		    </div>
+	  </section>
+
+	  <section id="Games">
+	          <div class="P">
+			  <h1>Game Mode</h1>
+			  </div>
+	          <div class="container">
+              <div class="card">
+              <span class="Gname">Tic-Tac-Toe</span>
+			  <img class="card-img" src="TTT.png" alt="TTT">
+			  <button class="button type1">
+              <span class="btn-txt"><a class="play" href="TIC-TAC-TOE.html">Play Now</a></span>
+              </button>
+              </div>
+              <div class="card">
+              <span class="Gname">Escape Maze</span>
+			  <img class="card-img" src="maze.png" alt="maze">
+			  <button class="button type1">
+              <span class="btn-txt"><a class="play" href="ESCAPE-MAZE.html">Play Now</a></span>
+              </button>
+              </div>
+              <div class="card">
+              <span class="Gname">  Roll the Dice </span>
+			  <img class="card-img" src="die.png" alt="die">
+			  <button class="button type1">
+              <span class="btn-txt"><a class="play" href="ROLL-THE-DICE.html">Play Now</a></span>
+              </button>
+              </div>
+			  <div class="card">
+              <span class="Gname"> Match Card </span>
+			  <img class="card-img" src="card.png" alt="card">
+			  <button class="button type1">
+              <span class="btn-txt"><a class="play" href="MATCH-CARD.html">Play Now</a></span>
+              </button>
+              </div>
+              </div>
+              <div class="V">
+			  <p><a href="#">View More</a></p>
+			  </div>			  
+	  </section>
+	  
+	  <footer id="Contact">
+		<div class="footer-content">
+		<h3> C0DE 8 </h3>
+		<p> CODE 8 is an online website, full of random projects made of html, css & javascript. </p>
+		<ul class="connect">
+		<li><a href="#"><i class="fa-brands fa-facebook fa-beat"></i></a></li>
+		<li><a href="#"><i class="fa-brands fa-instagram fa-beat"></i></a></li>
+		<li><a href="#"><i class="fa-brands fa-twitter fa-beat"></i></a></li>
+		<li><a href="#"><i class="fa-solid fa-envelope fa-beat"></i></a></li>
+		<li><a href="#"><i class="fa-brands fa-linkedin fa-beat"></i></a></li>
+		</div>
+		<div class="footer-bottom">
+		<p>@2023 C0DE 8. created by <span> Raven Olveda </span></p> 
+		</div>
+	  </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+	font-family:'Share Tech', sans-serif;
+}
+ html{
+	  height:100%;
+	  overflow-x:hidden;
+ }
+header{
+	    display:flex;
+		align-items:center;
+		justify-content:center;
+		background:#0d1a26;
+		height:13vh;
+		width:100%;
+}
+ .home-page img{
+	            height:8vh;
+				border-radius:1px;
+				margin-top:10px;
+			   }
+.container{
+	       display:flex;
+		   align-items:center;
+		   flex-direction:column;
+		   height:100vh;
+		   width:100vw;
+		   gap:50px;
+}
+.grid{
+	  display:grid;
+	  grid-template-columns:repeat(10, 1fr);
+	  grid-template-ROWS:repeat(8, 1fr);
+	  grid-column-gap: 2px;
+	  grid-row-gap: 2px;
+	  height:70%;
+	  width:70%;
+	  border:solid 1px #000;
+}
+.child{
+	   text-align:center;
+	   background:#fff;
+	   color:#fff;
+	   text-transform:uppercase;
+	   cursor:pointer;
+	   transition:1s;
+	   transition-delay:0.1s;
+}
+.child span{
+	        font-size:30px;
+}
+.o:hover{
+	     background:#00e600;
+		 cursor:pointer;
+}
+.x{
+   color:white;
+   font-size:30px;
+   text-align:center;
+   align-items:center;
+   padding-top:10px;
+}
+.x:hover{
+	     background:red;
+		 color:yellow;
+		 cursor:not-allowed;
+}
+.exit:hover{
+	        background-color:#000;
+}
+.child:nth-child(1){
+	                background:#000;
+					font-size:15px;
+}
+.rules{ 
+       margin-top:20px;
+	   font-size:20px;
+	   line-height:100%;
+	   max-width:50%;
+	   text-align:center;
+}
+h3{
+   font-size:40px;
+   padding-top:1%;
+   padding-bottom:2%;
+}
+h5{
+   font-size:30px;
+   font-weight:300;
+   text-transform:uppercase;
+   letter-spacing:5px;
+   padding-bottom:2%;
+}
+p{
+  font-size:15px;
+  font-weight:600;
+}
+.rules #s{
+	        font-size:25px;
+}
+.G{
+   color:green;
+}
+.R{
+   color:red;
+}
